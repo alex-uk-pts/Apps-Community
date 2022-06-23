@@ -44,7 +44,7 @@
         pg_volumes:
           - '/opt/appdata/{{pgrole}}/config:/config'
           - '/opt/appdata/{{pgrole}}/temp:/temp'
-          - '/opt/appdata/{{pgrole}}/mnt/abooks-original:/original'
+          - '/mnt/abooks-original:/original'
           - '/opt/appdata/{{pgrole}}/backup:/backup'
           - '{{path.stdout}}:{{path.stdout}}'
           
