@@ -14,7 +14,7 @@
       set_fact:
         pgrole: 'domainmoddb'
         intport: '3306'
-        extport: '3306'
+        extport: '3307'
         image: 'ghcr.io/linuxserver/mariadb:alpine'
 
     # CORE (MANDATORY) ############################################################
