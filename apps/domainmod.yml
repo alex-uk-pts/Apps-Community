@@ -52,7 +52,7 @@
           PUID: '1000'
           PGID: '1000'
           TZ: 'Asia/Shanghai'
-          DOMAINMOD_WEB_ROOT:
+          DOMAINMOD_WEB_ROOT: ''
           DOMAINMOD_DATABASE_HOST: 'domainmoddb'
           DOMAINMOD_DATABASE: 'domainmod'
           DOMAINMOD_USER: 'domainmod'
