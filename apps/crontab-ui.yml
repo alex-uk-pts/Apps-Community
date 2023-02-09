@@ -44,7 +44,7 @@
         pg_volumes:
           - '/var/run/docker.sock:/var/run/docker.sock'
           - '/etc/cron.d:/etc/crontabs'
-          - /opt/appdata/{{pgrole}}:/crontab-ui/crontabs/'
+          - '/opt/appdata/{{pgrole}}:/crontabs/'
 
     - name: 'Setting {{pgrole}} ENV'
       set_fact:
