@@ -14,7 +14,7 @@
       set_fact:
         pgrole: 'domainmod'
         intport: '8080'
-        extport: '8000'
+        extport: '8009'
         image: 'domainmod/domainmod'
 
     # CORE (MANDATORY) ############################################################
