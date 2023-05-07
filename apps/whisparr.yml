@@ -13,7 +13,7 @@
     - name: 'Set Known Facts'
       set_fact:
         pgrole: 'whisparr'
-        intport: '80'
+        intport: '6969'
         extport: '6969'
         image: 'hotio/whisparr'
 
