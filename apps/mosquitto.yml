@@ -46,7 +46,8 @@
         pg_volumes:
           - '/opt/appdata/{{pgrole}}:/mosquitto/'
           - '/opt/appdata/{{pgrole}}/data:/mosquitto/data'
-          - '/opt/mosquitto/{{pgrole}}/log:/mosquitto/log'
+          - '/opt/appdata/{{pgrole}}/log:/mosquitto/log'
+          - '/opt/appdata/{{pgrole}}/config:/mosquitto/config'
 
     - name: 'Setting {{pgrole}} ENV'
       set_fact:
