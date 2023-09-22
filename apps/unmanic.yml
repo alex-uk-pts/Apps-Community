@@ -43,7 +43,7 @@
       set_fact:
         pg_volumes:
           - '/etc/localtime:/etc/localtime:ro'
-          - '/mnt:/mnt'
+          #- '/mnt:/mnt'
           - '/opt/appdata/{{pgrole}}:/config'
           - '/tmp/unmanic:/tmp/unmanic'
           - '{{path.stdout}}:{{path.stdout}}'
