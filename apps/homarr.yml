@@ -13,7 +13,7 @@
         pgrole: 'homarr'
         intport: '7575'
         extport: '7575'
-        image: 'hcr.io/ajnart/homarr:latest'
+        image: 'ghcr.io/ajnart/homarr:latest'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
