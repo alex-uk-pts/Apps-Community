@@ -43,7 +43,7 @@
       set_fact:
         pg_volumes:
           - '/var/run/docker.sock:/var/run/docker.sock'
-          - '/var/opt/appdata/{{pgrole}}/datastore:/datastore'
+          - '/opt/appdata/{{pgrole}}/datastore:/datastore'
 
     - name: 'Setting {{pgrole}} ENV'
       set_fact:
