@@ -42,7 +42,8 @@
     - name: 'Setting {{pgrole}} Volumes'
       set_fact:
         pg_volumes:
-          - '/opt/appdata/{{pgrole}}:/uptime-kuma/'
+          - '/opt/appdata/{{pgrole}}/uptime-kuma:/uptime-kuma/'
+          - '/opt/appdata/{{pgrole}}/app/data:/app/data'
 
     - name: 'Setting {{pgrole}} ENV'
       set_fact:
