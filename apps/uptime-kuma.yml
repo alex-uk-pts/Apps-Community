@@ -12,7 +12,7 @@
     # FACTS #######################################################################
     - name: 'Set Known Facts'
       set_fact:
-        pgrole: 'uptime'
+        pgrole: 'uptime-kuma'
         intport: '3001'
         extport: '3001'
         image: 'louislam/uptime-kuma'
